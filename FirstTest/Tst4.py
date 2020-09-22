@@ -9,7 +9,6 @@ Somme =0
 #   Somme += i
 #print(Somme) 
 
-for i in range(0, Value):
-   Somme += i+1
-   print(Somme)
+for i in range(Value+1):
+   Somme += i
 print(Somme)
