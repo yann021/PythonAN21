@@ -4,7 +4,8 @@ nombre_de_tour=1
 Value = input("saisir un nombre \n ->")
 Value = int(Value)
 
-while (Value!=nombre_mystere):
+while (Value!=nombre_mystere & nombre_de_tour < 5):
+    if (nombre_de_tour )
     if (Value>nombre_mystere):
         print('Esseye encore, mais plus petit')
         Value = input("saisir un nombre \n ->")
@@ -15,4 +16,8 @@ while (Value!=nombre_mystere):
         Value = input("saisir un nombre \n ->")
         Value = int(Value)
         nombre_de_tour +=1
-print('Enfin, il ta fallut', nombre_de_tour, 'fois')
+
+if(nombre_de_tour<5):
+    print("Trouvé en", str(nombre_de_tour), 'fois')
+else:
+    print("Try again")
